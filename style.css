@@ -5,5 +5,23 @@
 body {
     background-image: url(./ssbu.jpg);
     background-repeat: no-repeat;
+    position: relative;
 }
 
+.bloc {
+    background-color: white;
+    position: absolute;
+    left:100px;
+
+}
+
+.droit {
+    justify-content: center;
+    position: relative;
+    float: right;
+}
+
+.container {
+    background-color: white;
+    height: 800px;
+}
