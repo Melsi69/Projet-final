@@ -1,5 +1,6 @@
 .logo {
     width: 100px;
+    border: 2px solid white;
 }
 
 body {    
@@ -67,6 +68,34 @@ header {
   z-index: 2;
 }
 
-.imgevent {
-  
+#trtete {
+    background-color: #00ADB5;
+    color:white;
 }
+
+header {
+    background-color: #00ADB5;
+    color:white;
+}
+
+header ul li a {    
+    color:white;  
+    text-decoration: none;
+}
+
+header ul li a:hover {  
+    background-color:white;  
+    color:#00ADB5; 
+    text-decoration: none; 
+    padding:1em;
+}
+
+footer {
+    background-color:#00ADB5;
+}
+
+
+
+
+
+

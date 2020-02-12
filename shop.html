@@ -4,6 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="./pinterest_profile_image.ico" type="image/x-icon">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -14,41 +15,132 @@
       
     <a href="lienJeuxPage" id="backgroundLink"></a>
     <header class="mb-5">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <img src="pinterest_profile_image.png" class="logo" alt="" href="#accueil">
-            <div class="col-6">
-              <ul class="navbar-nav d-flex justify-content-around">
-                <li><a href="index.html" class="">Accueil</a></li>
-                <li><a href="Event.html" class="">Event</a></li>
-                <li><a href="A-propos.html"class="">A propos</a></li>
-                <li><a href="Ou nous trouver.html"class="">Où nous trouver</a></li>
-                <li><a href="shop.html"class="">Boutique</a></li>
-              </ul>
+      <nav class="navbar navbar-expand-lg d-flex">
+        <a class="navbar-brand" href="#"><img class="logo animated bounceInLeft delay-1s" src="./pinterest_profile_image.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Event.html">Event</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="A-propos.html">A propos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Ou nous trouver.html">Où nous trouver</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Boutique</a>
+            </li>
+            <div class="d-flex justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="signin.html">signin</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signup.html">signup</a>
+            </li>
             </div>
-                      
-            <div class="">
-              <ul class="nav navbar-nav ">               
-                  <li><a href="signin.html"class="">signin</a></li>
-                  <li><a href="signup.html"class="ml-5">signup</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+          </ul>
+        </div>
+      </nav>
     </header>
 
 <div class="container">
   <div class="row">
-    <div class="col-3">
-      
+    <div class="col-2">
+      <form class="">
+        <div class="pm-morefilters-head">Plate-forme</div>
+        <div class="sections-content mainshadow" id="ig-pm-platformfilters">
+        <label><input type="checkbox" name="all_types" value="1" checked="checked"><span></span> Toutes les plateformes</label>
+        <hr>
+        <label><input type="checkbox" value="battle.net"><span></span> Battle.net</label>
+        <label><input type="checkbox" value="epic games"><span></span> Epic Games</label>
+        <label><input type="checkbox" value="gog.com"><span></span> GOG.com</label><br>
+        <label><input type="checkbox" value="ncsoft"><span></span> Ncsoft</label><br>
+        <label><input type="checkbox" value="nintendo"><span></span> Nintendo</label>
+        <label><input type="checkbox" value="official website"><span></span> Official Website</label>
+        <label><input type="checkbox" value="origin"><span></span> Origin</label><br>
+        <label><input type="checkbox" value="other"><span></span> Other</label><br>
+        <label><input type="checkbox" value="playstation"><span></span> Playstation</label>
+        <label><input type="checkbox" value="rockstar"><span></span> Rockstar</label>
+        <label><input type="checkbox" value="software"><span></span> Software</label><br>
+        <label><input type="checkbox" value="steam"><span></span> Steam</label><br> 
+        <label><input type="checkbox" value="uplay"><span></span> Uplay</label><br>
+        <label><input type="checkbox" value="xbox"><span></span> Xbox</label>
+        <label><input type="checkbox" value="xbox play anywhere"><span></span> Xbox Play Anywhere</label>
+        <label><input type="checkbox" value="22"><span></span> Mac</label><br>
+        <label><input type="checkbox" value="30"><span></span> Linux</label><br>
+        <label><input type="checkbox" value="31"><span></span> VR Ready</label>
+        </div>
+        
+        <div class="ig-pm-morefilters-head">Genre</div>
+        <div class="ig-sections-content mainshadow" id="ig-pm-genrefilters">
+        <label><input type="checkbox" name="all_cats" value="1" checked="checked"><span></span> Tous</label>
+        <hr>
+        <label><input type="checkbox" name="cat[]" value="39"><span></span> Abonnement Nintendo</label>
+        <label><input type="checkbox" name="cat[]" value="28"><span></span> Abonnement PlayStation Plus</label>
+        <label><input type="checkbox" name="cat[]" value="19"><span></span> Abonnement Xbox Live Gold</label>
+        <label><input type="checkbox" name="cat[]" value="1"><span></span> Action</label>
+        <label><input type="checkbox" name="cat[]" value="2"><span></span> Arcade</label>
+        <label><input type="checkbox" name="cat[]" value="3"><span></span> Autre</label>
+        <label><input type="checkbox" name="cat[]" value="4"><span></span> Aventure</label>
+        <label><input type="checkbox" name="cat[]" value="5"><span></span> Beat'em all</label>
+        <label><input type="checkbox" name="cat[]" value="27"><span></span> Cartes Cadeau</label>
+        <label><input type="checkbox" name="cat[]" value="6"><span></span> Coaching</label>
+        <label><input type="checkbox" name="cat[]" value="7"><span></span> Combat</label>
+        <label><input type="checkbox" name="cat[]" value="24"><span></span> Coopération</label>
+        <label><input type="checkbox" name="cat[]" value="8"><span></span> Course</label>
+        <label><input type="checkbox" name="cat[]" value="37"><span></span> Early Access</label>
+        <label><input type="checkbox" name="cat[]" value="9"><span></span> FPS</label>
+        <label><input type="checkbox" name="cat[]" value="35"><span></span> Free to play</label>
+        <label><input type="checkbox" name="cat[]" value="10"><span></span> Gestion</label>
+        <label><input type="checkbox" name="cat[]" value="29"><span></span> Gift Card PlayStation Plus</label>
+        <label><input type="checkbox" name="cat[]" value="32"><span></span> Indies</label>
+        <label><input type="checkbox" name="cat[]" value="34"><span></span> Jeux 3DS</label>
+        <label><input type="checkbox" name="cat[]" value="36"><span></span> Jeux PS4</label>
+        <label><input type="checkbox" name="cat[]" value="38"><span></span> Jeux Switch</label>
+        <label><input type="checkbox" name="cat[]" value="33"><span></span> Jeux Wii U</label>
+        <label><input type="checkbox" name="cat[]" value="25"><span></span> Jeux Xbox ONE</label>
+        <label><input type="checkbox" name="cat[]" value="12"><span></span> MMO</label>
+        <label><input type="checkbox" name="cat[]" value="23"><span></span> Multijoueur</label>
+        <label><input type="checkbox" name="cat[]" value="13"><span></span> Plates-formes</label>
+        <label><input type="checkbox" name="cat[]" value="11"><span></span> RPG</label>
+        <label><input type="checkbox" name="cat[]" value="14"><span></span> Shoot'em up</label>
+        <label><input type="checkbox" name="cat[]" value="15"><span></span> Simulation</label>
+        <label><input type="checkbox" name="cat[]" value="16"><span></span> Sport</label>
+        <label><input type="checkbox" name="cat[]" value="17"><span></span> Stratégie</label>
+        <label><input type="checkbox" name="cat[]" value="18"><span></span> Wargame</label>
+        <label><input type="checkbox" name="cat[]" value="21"><span></span> Xbox Gift Cards</label>
+        </div>
+        
+        </div>
+        <div class="col-9">
+          <img class="" src="./Deniers_jeux/cook-serve-delicious-3.jpg" alt="">
+        </div>
+        </div>
+      </form>
+
+        
     </div>
   </div>
 </div>
+
+<footer class="container-fluid col-xs-12 col-sm-12 col-md-12">
+  <div class="footer-copyright text-white text-center py-2">Copyright &copy 2020 : Game Shop</div>
+</footer>
+      
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./boutique.js"></script>
   </body>
 </html>
