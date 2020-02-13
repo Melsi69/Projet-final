@@ -39,7 +39,7 @@ footer {
 
 .dernier {
    width: 75%;
-   
+   margin: 4%; 
 }
 
 ul {
@@ -74,7 +74,7 @@ header {
 }
 
 header {
-    background-color: #00ADB5;
+    background-color: #00ADB5 !important;
     color:white;
 }
 
@@ -94,8 +94,31 @@ footer {
     background-color:#00ADB5;
 }
 
+.auth1{
+    float:right;
+}
+
+.n.navbar-toggle .icon-bar {
+    background-color: black !important;
+}
+
+h3, h5 {
+    color: white;
+    background-color: #00ADB5;
+}
 
 
+.pied {
+    bottom: 0;
+}
 
 
+.navbar-toggler {
 
+    border: white 2px solid;
+}
+
+.filtre {
+    background-color: #2CC2CA;
+    color: white;
+}
